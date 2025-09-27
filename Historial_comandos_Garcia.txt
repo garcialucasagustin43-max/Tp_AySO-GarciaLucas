@@ -1,0 +1,314 @@
+man man
+cat --help
+man cat
+pwd
+ls
+ls -l
+ls -la
+echo hola
+echo $HOME
+mkdir clase4
+ls -l
+cd clase4
+echo linea1
+echo linea1 >  archivo1.txt
+ls - l
+ls -l
+cat archivo1.txt
+cat > archivo2.txt
+ls -l
+cat archive2.txt
+cat archivo2.txt
+cat *.txt
+cat archivo1.txt > archivo3.txt
+ls -l
+cat archivo3.txt 
+cat archivo1.txt >> archivo2.txt
+ls -l
+cat archivo2.txt
+cat archivo1.txt archvio2.txt > archivo4.txt
+ls -l
+cat archivo4.txt
+cat archivo1.txt archivo2.txt 
+cat archivo1.txt archivo2.txt > archivo4.txt
+cat archivo4.txt
+grep linea2
+grep linea2 archive4.txt
+grep linea1 archive2.txt
+grep linea1 archive1.txt
+cat archive1.txt
+cd clase4$
+cd ..
+cd clase4
+cat 
+car archive1.txt
+cat archive1.txt
+cat archivo1.txt
+grep archivo1.txt
+grep linea1 archivo1.txt
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd..
+cd ..
+tree
+sudo apt install tree
+tree
+sudo snap install tree
+tree
+pwd
+ls -l
+cd clase4
+tree
+mkdir facturas pedidos
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mk dir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+md dir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p garcia1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p garcia2{mama/hijos{1..3},papa/hijos{1..3,ahijado}
+tree
+rm -r garcia2
+rm -r garcia2{mama
+tree
+clear
+whoami
+id
+cat/etc/psswd
+cat/etc/passwd
+grep -i vagrant
+clear
+cat /etc/shadow
+sudo cat /etc/shadow 
+sudo grep vagrant /etc/shadow 
+grep vagrant /etc/group
+claer
+clear
+grouoadd Alumnos
+groupadd Alumnos
+sudo groupadd Alumnos
+cat/etc/group
+useradd -m -s /bin/bash -c "Usuario Pepe" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Usuario Pepe" -G Alumnos pepe
+cat /etc/group
+cat /etc/passwd
+ls -l /home
+passwd pepe
+sudo passwd pepe
+sudo cat/etc/shadow
+cat/etc/shadow
+pwd
+su pepe
+exit
+su - pepe
+sudo ls -l/home/pepe
+sudo ls -l /home/pepe
+sudo chown vagrant:vagrant
+sudo chown vagrant:vagrant /home/pepe
+sudo ls -l /home/pepe
+pwd
+mkdir clase5
+cd clase5
+ls -l
+touch practica1.txt
+touch practica2.txt
+ls -l
+chmod 600 practica1.txt
+ls -l
+chmod 444 practica2.txt
+ls -l 
+cd ..
+pwd
+cd repogit
+git clone git@github.com:garcialucasagustin43-max/Tp_AySO-GarciaLucas.git~
+git clone git@github.com:garcialucasagustin43-max/Tp_AySO-GarciaLucas.git
+ls l-
+ls -l
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone
+git clone git@github.com:garcialucasagustin43-max/Tp_AySO-GarciaLucas.git
+cd tp_Ayso
+pwd
+cd Tp_AySO-GarciaLucas
+pwd
+ls-l
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+man frep
+man grep
+grep HOME_URL /etc/os-release
+grep home_url/etc/os-release
+grep home_url /etc/os-release
+cat 
+man grep
+quit
+exit
+whoami
+who
+id
+cd repogit
+cd Tp_AySO-GarciaLucas/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+whoami
+ls-la
+ls -la
+cat /home/vagrant/.ssh/id_ed25519.pub
+ls -l
+repogit
+cd
+cd clase4
+cd repogit
+mkdir proyecto.txt
+touch proyecto.txt
+ls -l
+echo ls -l 
+echo ls -l > script1
+ls -l
+cat script1
+bash script1
+vim script2.sh
+cat script2.sh
+./script2.sh
+chmod 775 script2.sh
+./script2.sh
+cd repogit
+git clone git@github.com:garcialucasagustin43-max/Tp_AySO-GarciaLucas.git~
+cd Tp_AySO-GarciaLucas/
+pwd
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url etc/os/release
+grep home_url etc/os-release
+grep home_url /etc/os-release
+man grep
+whoami
+touch datos_usuario.txt
+exho
+echo
+echo “Usuario=$(whoami)” > datos_usuario.txt
+grep -i Home_url /etc/os/release > datos_url.txt
+cat datos_url.txt
+grep -i Home_url /etc/os-release > datos_url.txt
+cat datos_u
+cat datos_url.txt
+ls -l datos_url.txt
+cat datos_url.txt
+whoami
+echo "Usuario=$(whoami) > datos_usuario.txt
+Lucas-Garcia
+
+
+echo "Usuario=$(whoami) > datos_usuario.txt
+
+
+
+
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add.
+git add
+git config --global user.email "garcialucasagustin43@gmail.com"
+git config --global user.name "Lucas Garcia"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_url.txt"
+git status
+git add datos_url.txt datos_usuario.txt
+git status
+git push
+grep "model name" /proc/cpuinfo / head -n1
+grep "model name" /proc/cpuinfo/ head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo / head -n1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+cat <<EOF>> README.md
+
+
+cat <<EOF>>README.md
+Alumno: <Lucas Garcia>
+Division: <113>
+Turno: <Mañana>
+EOF
+
+git add READ.me datos_usuario.txt
+git add READ.md datos_usuario.txt
+git add README.md datos_usuario.txt
+cat README.md
+git commit -m "ADD:Añadiendo Readme y datos de usuario"
+git push
+mkdir -p material1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+cat home
+cat datos_usuario.txt
+ls -r
+rm -r ~/material1 ~/materia2
+tree ~/material1 ~/materia2
+ls -R ~/material1 ~/materia2
+mkdir -p ~/materia1/{uni1,uni2,uni3} ~/materia2/{uni1,uni2,uni3}
+ls -R
+rm -r material1 materia2
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+tree materia1 materia2
+git push
+cat <<EOF > script_dir.sh
+cat <EOF> script_dir.sh
+cat <<EOF > script_dir.sh
+rm -rf materia1 materia2
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+EOF
+
+chmod script_dir.sh
+chmod x+ script_dir.sh
+chmod +x script_dir.sh
+./script_dir.sh
+ls -R materia1 materia2
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+cd eogi
+rpt epi
+cdrogt
+cp ~/.bash_history ./Historial_comandos_Garcia.txt[200~cp ~/.bash_history ./Historial_comandos_Garcia.tx
+}
+~
+history -a
+cp ~/.bash_history ./Historial_comandos_Garcia.txt
+cat
+cd repogit
+history -a
+cp ~/.bash_history ./Historial_comandos_Garcia.txt
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+cd Tp_AySO-GarciaLucas/
+history -a
