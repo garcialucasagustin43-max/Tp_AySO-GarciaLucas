@@ -1,0 +1,10 @@
+Usuario=vagrant
+/proc/cpuinfo-4-model		: 96
+/proc/cpuinfo:5:model name	: AMD Ryzen 5 4600G with Radeon Graphics
+/proc/cpuinfo-6-stepping	: 1
+--
+/proc/cpuinfo-32-model		: 96
+/proc/cpuinfo:33:model name	: AMD Ryzen 5 4600G with Radeon Graphics
+/proc/cpuinfo-34-stepping	: 1
+model name	: AMD Ryzen 5 4600G with Radeon Graphics
+model name	: AMD Ryzen 5 4600G with Radeon Graphics
